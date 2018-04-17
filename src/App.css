@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  background-color: #C0C0C0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #BB0F0A;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.input {
+  font-family: 'Times New Roman';
+  width: 50%;
+  margin-top: 3vh;
+  padding: 1vh;
+}
+
+.every-character{
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+.characters-list{
+  padding:0px;
+  list-style: none;
+  list-style-position: center;
+  font-family: 'Courier New';
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.characters-list li{
+  background: aliceblue;
+  width: 20%;
+  margin:2%;
+  height: 50vh;
+  border:1px solid black;
+}
+
+.each-character{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:start;
+}
+
+.each-character p{
+  text-align:start;
+  padding: 0px;
+  padding-left: 1vw;
+  padding-bottom: 1vh;
+  border:0px;
+  margin: 0px;
+}
+
+.each-character h3{
+  text-align: center;
+}
+
+.character-photo{
+  max-width: 50%;
+  height: 20vh;
+  align-self: center;
+  margin-bottom: 2vh;
+}
+
+.character-alive{
+  max-width: 20%;
+  height: 5vh;
+  align-self: center;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
