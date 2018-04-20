@@ -31,18 +31,23 @@
 }
 
 .every-character{
-  width: 90%;
+  width: 95%;
   margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center
 }
 
 
 .characters-list{
   padding:0px;
+  width: 90%;
   list-style: none;
   list-style-position: center;
   font-family: 'Courier New';
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .characters-list li{
@@ -62,6 +67,7 @@
 
 .each-character p{
   text-align:start;
+  font-size: 10pt;
   padding: 0px;
   padding-left: 1vw;
   padding-bottom: 1vh;
@@ -85,6 +91,23 @@
   height: 5vh;
   align-self: center;
 
+}
+
+i {
+  border: solid red;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
 }
 
 @keyframes App-logo-spin {
