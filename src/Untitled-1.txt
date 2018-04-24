@@ -1,0 +1,11 @@
+function
+-> componente react ou elemento html -> nome da função começa com render
+-> função para manipular uma ação - ex: alterar o valor de um input
+    DEFINIÇÃO: nome da função começa com handle - ex: handleSearchTextChange
+    USO: nome da função começa com ON - ex: onSearchTextChange
+-> Componente sempre começa com letra maiuscula
+-> Statefull estende class, stateless não.
+-> constante noem sempre maiúsculo separado por underline
+-> identificador de objeto (ID), nunca deve ser 0. Pode ser uma string unica qualquer, um numero positivo acima de 0.
+-> uma função deve ser sempre pura.
+
